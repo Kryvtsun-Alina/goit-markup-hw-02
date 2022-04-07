@@ -50,3 +50,17 @@
   color: var(--primary-white-color--);
   background-color: var(--accent-color--);
 }
+/*section*/
+section .title-primary {
+  color: var(--title-text-color--);
+}
+.title-secondary {
+  color: var(--title-text-color--);
+}
+.text {
+  color: var(--primary-text-color--);
+}
+/*section features*/
+.title {
+  visibility: hidden;
+}
