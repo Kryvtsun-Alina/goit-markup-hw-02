@@ -12,6 +12,9 @@
   --accent-color--: #2196f3;
   --primary-white-color--: #ffffff;
 }
+.link.current {
+  color: var(--accent-color--);
+}
 /*logo*/
 .logo {
   color: var(--accent-color--);
