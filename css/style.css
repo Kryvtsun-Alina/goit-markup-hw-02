@@ -42,3 +42,11 @@
 .contacts:focus {
   color: var(--accent-color--);
 }
+/*hero*/
+.title-hero {
+  color: var(--primary-white-color--);
+}
+.button {
+  color: var(--primary-white-color--);
+  background-color: var(--accent-color--);
+}
