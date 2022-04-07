@@ -65,7 +65,7 @@ section .title-primary {
   visibility: hidden;
 }
 /*footer*/
-.footer {
+.footer footer {
   background-color: #2f303a;
 }
 .logo.footer {
@@ -74,9 +74,9 @@ section .title-primary {
 .logo span {
   color: var(--accent-color--);
 }
-[adress] {
+adress {
   color: var(--primary-white-color--);
 }
-.footer.contacts {
+.contacts.footer {
   color: #ffffff 60%;
 }
