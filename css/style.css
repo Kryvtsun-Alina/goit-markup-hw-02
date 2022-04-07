@@ -43,6 +43,9 @@
   color: var(--accent-color--);
 }
 /*hero*/
+.hero {
+  background-color: #2f303a;
+}
 .title-hero {
   color: var(--primary-white-color--);
 }
