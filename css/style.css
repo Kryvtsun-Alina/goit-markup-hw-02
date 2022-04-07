@@ -1,0 +1,14 @@
+.page {
+  color: #757757;
+  background-color: #ffffff;
+}
+/*Цвет основного текста №757575*/
+/*Цвет заголовка #212121*/
+/*Цвет акцента #2196F3*/
+/*Белый цвет #ffffff*/
+:root {
+  --primary-text-color--: #757575;
+  --title-text-color--: #212121;
+  --accent-color--: #2196f3;
+  --primary-white-color--: #ffffff;
+}
