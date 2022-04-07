@@ -64,3 +64,19 @@ section .title-primary {
 .title {
   visibility: hidden;
 }
+/*footer*/
+.footer {
+  background-color: #2f303a;
+}
+.logo.footer {
+  color: var(--primary-white-color--);
+}
+.logo span {
+  color: var(--accent-color--);
+}
+[adress] {
+  color: var(--primary-white-color--);
+}
+.footer.contacts {
+  color: #ffffff 60%;
+}
