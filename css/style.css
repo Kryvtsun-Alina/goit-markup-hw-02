@@ -86,3 +86,8 @@ a .logo-past {
 .footer.contacts {
   color: #ffffff 60%;
 }
+/*portfolio*/
+.filter {
+  color: var(--title-text-color--);
+  background-color: #f5f4fa;
+}
