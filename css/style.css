@@ -34,3 +34,11 @@
 .link:focus {
   color: var(--accent-color--);
 }
+/*contacts*/
+.contacts {
+  color: var(--primary-text-color--);
+}
+.contacts:hover,
+.contacts:focus {
+  color: var(--accent-color--);
+}
