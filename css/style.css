@@ -65,18 +65,18 @@ section .title-primary {
   visibility: hidden;
 }
 /*footer*/
-.footer {
+.footer footer {
   background-color: #2f303a;
 }
-footer > .logo {
+.logo.footer {
+  color: var(--primary-white-color--);
+}
+.logo span {
   color: var(--accent-color--);
 }
-a .logo-past {
+adress {
   color: var(--primary-white-color--);
 }
-.footer address {
-  color: var(--primary-white-color--);
-}
-.footer.contacts {
+.contacts.footer {
   color: #ffffff 60%;
 }
