@@ -83,12 +83,25 @@
 /*section*/
 section .title-primary {
   color: var(--title-text-color--);
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
 }
 .title-secondary {
   color: var(--title-text-color--);
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 .text {
   color: var(--primary-text-color--);
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
 /*section features*/
 .title {
@@ -100,13 +113,25 @@ section .title-primary {
 }
 footer > .logo {
   color: var(--accent-color--);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 a .logo-past {
   color: var(--primary-white-color--);
 }
 .footer address {
   color: var(--primary-white-color--);
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
 .footer.contacts {
   color: #ffffff 60%;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
