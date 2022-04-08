@@ -1,6 +1,7 @@
 .page {
   color: #757757;
   background-color: #ffffff;
+  font-family: Roboto, sans-serif;
 }
 /*Цвет основного текста №757575*/
 /*Цвет заголовка #212121*/
@@ -18,6 +19,10 @@
 /*logo*/
 .logo {
   color: var(--accent-color--);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 .logo span {
   color: var(--title-text-color--);
@@ -32,6 +37,10 @@
 }
 .link {
   color: var(--title-text-color--);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 }
 .link:hover,
 .link:focus {
@@ -40,6 +49,10 @@
 /*contacts*/
 .contacts {
   color: var(--primary-text-color--);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 }
 .contacts:hover,
 .contacts:focus {
@@ -85,9 +98,4 @@ a .logo-past {
 }
 .footer.contacts {
   color: #ffffff 60%;
-}
-/*portfolio*/
-.filter {
-  color: var(--title-text-color--);
-  background-color: #f5f4fa;
 }
