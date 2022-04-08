@@ -23,6 +23,7 @@
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
 }
 .logo span {
   color: var(--title-text-color--);
@@ -37,10 +38,10 @@
 }
 .link {
   color: var(--title-text-color--);
-  font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  text-decoration: none;
 }
 .link:hover,
 .link:focus {
@@ -49,10 +50,10 @@
 /*contacts*/
 .contacts {
   color: var(--primary-text-color--);
-  font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  text-decoration: none;
 }
 .contacts:hover,
 .contacts:focus {
@@ -64,7 +65,6 @@
 }
 .title-hero {
   color: var(--primary-white-color--);
-  font-family: Roboto;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -75,22 +75,20 @@
 .button {
   color: var(--primary-white-color--);
   background-color: var(--accent-color--);
-  font-family: Roboto;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+  text-decoration: none;
 }
 /*section*/
-section .title-primary {
+.title-primary {
   color: var(--title-text-color--);
-  font-family: Roboto;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
 }
 .title-secondary {
   color: var(--title-text-color--);
-  font-family: Roboto;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -98,8 +96,6 @@ section .title-primary {
 }
 .text {
   color: var(--primary-text-color--);
-  font-family: Roboto;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -121,18 +117,27 @@ footer > .logo {
 a .logo-past {
   color: var(--primary-white-color--);
 }
+.logo-past:hover {
+  color: var(--primary-text-color--);
+}
 .footer address {
   color: var(--primary-white-color--);
-  font-family: Roboto;
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
 .footer.contacts {
   color: #ffffff 60%;
-  font-family: Roboto;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+}
+/*portfolio*/
+.filter {
+  color: var(--title-text-color--);
+  background-color: #f5f4fa;
+  cursor: pointer;
+  font-family: inherit;
+}
+.portfolio-link {
+  text-decoration: none;
 }
