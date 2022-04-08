@@ -30,7 +30,8 @@
 }
 .logo:hover,
 .logo:focus,
-.header-logo:hover {
+.header-logo:hover,
+.header-logo:focus {
   color: var(--primary-text-color--);
 }
 /*site-nav*/
@@ -118,7 +119,8 @@ footer > .logo {
 a .logo-past {
   color: var(--primary-white-color--);
 }
-.logo-past:hover .logo-past:focus {
+.logo-past:hover,
+.logo-past:focus {
   color: var(--primary-text-color--);
 }
 .footer address {
