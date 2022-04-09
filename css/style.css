@@ -1,7 +1,7 @@
-.page {
+body {
   color: #757757;
   background-color: #ffffff;
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 /*Цвет основного текста №757575*/
 /*Цвет заголовка #212121*/
@@ -129,8 +129,8 @@ a .logo-past {
   font-size: 14px;
   line-height: 1.71;
 }
-.footer.contacts {
-  color: #ffffff 60%;
+.footer .footer-contacts {
+  color: rgba(100%, 100%, 100%, 60%);
   font-size: 14px;
   line-height: 1.71;
 }
