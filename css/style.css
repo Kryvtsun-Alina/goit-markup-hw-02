@@ -186,6 +186,9 @@ a .logo-past {
 .portfolio-link {
   text-decoration: none;
 }
+.portfolio-title {
+  visibility: hidden;
+}
 .portfolio-title-secondary {
   color: var(--title-text-color--);
   font-weight: 700;
