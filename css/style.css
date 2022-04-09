@@ -23,6 +23,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  letter-spacing: 0.48px;
   text-decoration: none;
 }
 .header-logo {
@@ -43,6 +44,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.32px;
   text-decoration: none;
 }
 .link:hover,
@@ -55,6 +57,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.32px;
   text-decoration: none;
 }
 .contacts:hover,
@@ -82,28 +85,55 @@ body {
   line-height: 1.88;
   text-decoration: none;
 }
-/*section*/
-.title-primary {
-  color: var(--title-text-color--);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
+/*section features*/
+.features-title {
+  visibility: hidden;
 }
-.title-secondary {
-  color: var(--title-text-color--);
+.features-title-secondary {
+  color: #212121;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.48px;
   text-transform: uppercase;
 }
-.text {
-  color: var(--primary-text-color--);
+.features-text {
+  color: #757575;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.48px;
 }
-/*section features*/
-.title {
-  visibility: hidden;
+/*section activity*/
+.activity-title-primary {
+  color: #212121;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.48px;
+}
+/*section team*/
+.team-title-primary {
+  color: #212121;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.48px;
+}
+.team-title-secondary {
+  color: #212121;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.48px;
+}
+.tem-text {
+  color: #757575;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.48px;
 }
 /*footer*/
 .footer {
@@ -115,6 +145,7 @@ footer > .logo {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  letter-spacing: 0.48px;
 }
 a .logo-past {
   color: var(--primary-white-color--);
@@ -123,16 +154,22 @@ a .logo-past {
 .logo-past:focus {
   color: var(--primary-text-color--);
 }
-.footer address {
+.footer-address {
   color: var(--primary-white-color--);
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.48px;
 }
 .footer .footer-contacts {
   color: rgba(100%, 100%, 100%, 60%);
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.48px;
+}
+.footer .footer-contacts:hover,
+.footer .footer-contacts:focus {
+  color: var(--accent-color--);
 }
 /*portfolio*/
 .filter {
@@ -148,4 +185,6 @@ a .logo-past {
 }
 .portfolio-link {
   text-decoration: none;
+}
+.portfolio-title-secondary {
 }
