@@ -90,7 +90,7 @@ body {
   visibility: hidden;
 }
 .features-title-secondary {
-  color: #212121;
+  color: var(--title-text-color--);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -98,7 +98,7 @@ body {
   text-transform: uppercase;
 }
 .features-text {
-  color: #757575;
+  color: var(--primary-text-color--);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -106,7 +106,7 @@ body {
 }
 /*section activity*/
 .activity-title-primary {
-  color: #212121;
+  color: var(--title-text-color--);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -115,7 +115,7 @@ body {
 }
 /*section team*/
 .team-title-primary {
-  color: #212121;
+  color: var(--title-text-color--);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -123,14 +123,14 @@ body {
   letter-spacing: 0.48px;
 }
 .team-title-secondary {
-  color: #212121;
+  color: var(--title-text-color--);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.48px;
 }
 .tem-text {
-  color: #757575;
+  color: var(--primary-text-color--);
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.48px;
@@ -187,4 +187,15 @@ a .logo-past {
   text-decoration: none;
 }
 .portfolio-title-secondary {
+  color: var(--title-text-color--);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.96px;
+}
+.portfolio-text {
+  color: var(--primary-text-color--);
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.48px;
 }
