@@ -135,16 +135,16 @@ a .logo-past {
   line-height: 1.71;
 }
 /*portfolio*/
-.button-filter {
+.filter {
   color: var(--title-text-color--);
   background-color: #f5f4fa;
   cursor: pointer;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.62px;
+  line-height: 1.62;
   text-align: center;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.48px;
 }
 .portfolio-link {
   text-decoration: none;
